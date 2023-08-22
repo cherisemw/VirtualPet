@@ -1,8 +1,38 @@
 
 void setup(){
-  //some of your code here
+  size(400,400);
 }
 void draw(){
-  //more of your code here
+  //ears
+  fill(270,180,90);
+  triangle(100,70,100,185,170,115);
+  triangle(300,70,230,115,300,185);
+  fill(255,182,193);
+  triangle(110,90,110,165,150,115);
+  triangle(290,90,250,115,290,165);
+  
+  //face
+  fill(270,180,90);
+  ellipse(200,200,200,200);
+  
+  //eyes
+  fill(0,0,0);
+  ellipse(160,185,20,20);
+  ellipse(240,185,20,20);
+ 
+  //nose and mouth
+  fill(255,182,193);
+  triangle(190,220,200,230,210,220);
+  line(200,230,200,245);
+  line(200,245,185,253);
+  line(200,245,215,253);
+  
+  //whiskers
+  line(170,230,85,200);
+  line(170,240,70,240);
+  line(170,250,85,280);
+  line(230,230,315,200);
+  line(230,240,330,240);
+  line(230,250,315,280);
 }
 
